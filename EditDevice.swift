@@ -17,9 +17,18 @@ struct EditDevice: View {
 
     var body: some View {
         Form {
-            TextField("Name", text: $name)
-            TextField("IP", text: $deviceIp)
-            TextField("Port", text: $devicePort)
+            HStack {
+                Text("Name: ")
+                TextField("Name", text: $name)
+            }
+            HStack {
+                Text("IP: ")
+                TextField("IP", text: $deviceIp)
+            }
+            HStack {
+                Text("UDP Port: ")
+                TextField("Port", text: $devicePort)
+            }
             Toggle(isOn: $on) {
                 Text("On")
             }
