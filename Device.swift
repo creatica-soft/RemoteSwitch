@@ -8,7 +8,7 @@
 import SwiftUI
 import Network
 
-struct ContentView: View {
+struct Device: View {
     @AppStorage("DeviceName") var deviceName = "Remote Switch"
     @AppStorage("DeviceIp") var deviceIp = "192.168.1.44"
     @AppStorage("DevicePort") var devicePort = "4444"
