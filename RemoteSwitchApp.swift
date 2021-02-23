@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct testApp: App {
+struct remoteSwitchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Device()
         }
     }
 }
