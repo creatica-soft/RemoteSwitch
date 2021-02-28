@@ -7,5 +7,7 @@ The app sends the string character value "0" to turn the relay off and "1" to tu
 
 It only supports a single remote relay. A relay name, its IP address, UDP port number and initial state are configurable and preserved in AppStorage.
 
+See https://github.com/creatica-soft/RemoteControl for multiple remote relays.
+
 ![Remote Switch](RemoteSwitch.jpeg)
 ![Edit Device](EditDevice.jpeg)
