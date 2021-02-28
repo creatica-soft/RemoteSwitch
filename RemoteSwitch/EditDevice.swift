@@ -9,8 +9,8 @@ import SwiftUI
 
 struct EditDevice: View {
     @AppStorage("DeviceName") var deviceName = "Remote Switch"
-    @AppStorage("DeviceIp") var deviceIp = "192.168.1.44"
-    @AppStorage("DevicePort") var devicePort = "4444"
+    @AppStorage("DeviceIp") var deviceIp = "0.0.0.0"
+    @AppStorage("DevicePort") var devicePort = "0"
     @AppStorage("DeviceOn") var deviceOn = false
     @State var name = "Remote Switch"
     @State var on = false
